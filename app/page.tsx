@@ -33,7 +33,7 @@ export default function IndexPage() {
           GitHub
         </Link>
       </div>
-      <div className=" relative top-28 ">
+      <div className="  relative top-28 ">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
       <h1 className=" grid-cols-1 text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
       Project Overview 🌍
@@ -48,7 +48,30 @@ export default function IndexPage() {
         <li>Evaluate the impact of rising or falling oil prices on Delta's operational costs, profitability, and stock market valuation.</li>
         </ul>
       </div>
+      
       </div>
+      <div className="  relative mt-40 ">
+      <div className="flex max-w-[980px] flex-col items-start gap-2">
+      <h1 className=" grid-cols-1 text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
+      Data and Resources 📊
+        
+        </h1>
+        <p className=" grid-cols-1  max-w-[700px] text-lg text-muted-foreground">
+        The analysis is based on historical price data for crude oil and Delta Airlines </p>
+        <ul className=" list-disc list-outside">
+       
+<li>Includes open, high, low, close, and adjusted close prices for crude oil and Delta Airlines.</li>
+<li>Trading volumes are also part of the data set.</li>
+<li>The data aids in modeling and forecasting future price movements.</li>
+<li>Useful for developing investment strategies.</li>
+
+        </ul>
+      </div>
+      
+      </div>
+      <section>
+        
+      </section>
     </section>
   )
 }
