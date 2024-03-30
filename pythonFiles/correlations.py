@@ -88,6 +88,7 @@ def openTrade(tradeArr, longLow, shortHigh, closeLong, closeShort, sharesLong, s
 def processData():
     
     cashAvail = 10000
+    gainsWithCash = 0
     clfData = readDataAndStore("csvFiles/CLF_data_1.csv")
     dalData = readDataAndStore("csvFiles/DAL_data_1.csv")
     trades = []
@@ -110,10 +111,16 @@ def processData():
             sharesDelta = calculatePossibleShares(cashAvail, dalData[i][3], 2.0)
             cashAvail += openTrade(trades, clfData[i][3], dalData[i][2], clfData[i][4], dalData[i][4], sharesOil, sharesDelta, clfData[i][0])
         
-        accountBalanceDaily.append([clfData[i][0],cashAvail])
+        if cashAvail > 20000:
+            cashAvail -= 5000
+            gainsWithCash += 5000
+            
+        
+        accountBalanceDaily.append([clfData[i][0],cashAvail, gainsWithCash])
     
     packageForProcess.update({'Trades': trades, 'balances':accountBalanceDaily})
-    
+
+    print(cashAvail, gainsWithCash)
     return packageForProcess
 
 
