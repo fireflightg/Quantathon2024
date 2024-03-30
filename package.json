@@ -14,17 +14,24 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
   },
   "dependencies": {
+    "@atlaskit/tooltip": "^18.1.3",
     "@radix-ui/react-slot": "^1.0.2",
+    "chart.js": "^4.4.2",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
     "lucide-react": "0.105.0-alpha.4",
+    "material-react-glass-box": "^1.2.8",
     "next": "^13.4.8",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-draw-arrow": "^1.0.24",
+    "react-pro-sidebar": "^1.1.0",
+    "react-router-dom": "^6.22.3",
     "sharp": "^0.31.3",
     "tailwind-merge": "^1.13.2",
-    "tailwindcss-animate": "^1.0.6"
+    "tailwindcss-animate": "^1.0.6",
+    "windups": "^1.2.2"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
