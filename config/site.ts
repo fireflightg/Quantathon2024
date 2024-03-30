@@ -15,12 +15,12 @@ export const siteConfig = {
       title: "Docs",
       
      
-      href: "/docs",
+      href: "/",
     },
   ],
   links: {
     twitter: "https://twitter.com/0ncite",
     github: "https://github.com/fireflightg/Quantathon2024",
-    docs: "/docs",
+    docs: "http://localhost:3001/docs",
   },
 }
