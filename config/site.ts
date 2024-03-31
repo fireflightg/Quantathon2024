@@ -21,6 +21,6 @@ export const siteConfig = {
   links: {
     twitter: "https://twitter.com/0ncite",
     github: "https://github.com/fireflightg/Quantathon2024",
-    docs: "http://localhost:3001/docs",
+    docs: "./docs",
   },
 }
