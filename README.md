@@ -3,7 +3,7 @@
 ##link to the website is [here](https://quantathon2024-1k8uaqtar-fireflightwork.vercel.app)
 
 ## Project Overview 🌍
-This project is part of the 2024 OSU Quantathon, where I took on the role of a commodities analyst at Buckeye Capital, a leading investment firm. My task was to analyze the markets, specifically focusing on crude oil (WTI Crude) and Delta Airlines (DAL) stock prices, to devise lucrative trading strategies. With an initial capital of $10,000, the challenge was to maximize returns through strategic investments in these assets.
+This project is part of the 2024 OSU Quantathon, where we took on the role of a commodities analyst at Buckeye Capital, a leading investment firm. My task was to analyze the markets, specifically focusing on crude oil (WTI Crude) and Delta Airlines (DAL) stock prices, to devise lucrative trading strategies. With an initial capital of $10,000, the challenge was to maximize returns through strategic investments in these assets.
 
 ## Data and Resources 📊
 The analysis is based on historical price data for crude oil and Delta Airlines from March 24, 2014, to March 24, 2024. This includes open, high, low, close, adjusted close prices, and trading volumes. The data provided a comprehensive view to model and forecast future price movements and investment strategies.
