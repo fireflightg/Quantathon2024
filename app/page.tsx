@@ -21,7 +21,7 @@ export default function IndexPage() {
         Commodity Trading Analysis 
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-        The correlation between Delta Airlines' stock and oil prices and how changes in oil costs affect Delta's financial performance.
+        The correlation between Delta Airlines{"\'"} stock and oil prices and how changes in oil costs affect Delta{"\'"}s financial performance.
         </p>
       </div>
       <div className="flex gap-4">
@@ -49,12 +49,12 @@ export default function IndexPage() {
         
         </h2>
         <p className=" grid-cols-1  max-w-[700px] text-lg text-muted-foreground">
-        The correlation between Delta Airlines' stock and oil prices and how changes in oil costs affect Delta's financial performance.
+        The correlation between Delta Airlines{"\'"} stock and oil prices and how changes in oil costs affect Delta{"\'"}s financial performance.
         </p>
         <ul className=" list-disc list-outside">
-        <li>Analyze the impact of oil price fluctuations on Delta Airlines' stock value.</li>
-<li>Study historical data to identify trends between Delta's stock performance and oil prices.</li>
-<li>Assess how changes in oil prices affect Delta's operational costs, profitability, and market valuation.</li>
+        <li>Analyze the impact of oil price fluctuations on Delta Airlines{"\'"} stock value.</li>
+<li>Study historical data to identify trends between Delta{"\'"}s stock performance and oil prices.</li>
+<li>Assess how changes in oil prices affect Delta{"\'"}s operational costs, profitability, and market valuation.</li>
  </ul>
       </div>
       
