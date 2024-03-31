@@ -4,7 +4,7 @@ import Link from "next/link"
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { useRef } from "react";
-import { DrawArrow, WaterDrop } from "react-draw-arrow";
+
 
 
 export default function IndexPage() {
