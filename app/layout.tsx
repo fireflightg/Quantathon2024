@@ -8,17 +8,14 @@ import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 
-import { JetBrains_Mono as FontMono, Inter as FontSans } from "next/font/google"
+import { Inter as FontSans } from "next/font/google"
 
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 })
 
-const fontMono = FontMono({
-  subsets: ["latin"],
-  variable: "--font-mono",
-})
+
 
 
 export const metadata: Metadata = {

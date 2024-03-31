@@ -89,12 +89,12 @@ export default function IndexPage() {
     <ul className=" list-disc list-outside">
       
       
-    <li>Data Collection: Gather historical data on Delta Airlines' stock prices and oil costs.</li>
-    <li>Trend Analysis: Analyze patterns between Delta's stock performance and oil price fluctuations.</li>
+    <li>Data Collection: Gather historical data on Delta Airlines{"\'"}  stock prices and oil costs.</li>
+    <li>Trend Analysis: Analyze patterns between Delta{"\'"} s stock performance and oil price fluctuations.</li>
     
-    <li>Financial Impact Assessment: Evaluate how changes in oil prices affect Delta's profitability.</li>
-    <li>Sensitivity Modeling: Develop a model to predict Delta's stock response to oil price changes.</li>
-    <li>Risk Mitigation Review: Examine Delta's strategies for managing oil price volatility.</li>
+    <li>Financial Impact Assessment: Evaluate how changes in oil prices affect Delta{"\'"} s profitability.</li>
+    <li>Sensitivity Modeling: Develop a model to predict Delta{"\'"} s stock response to oil price changes.</li>
+    <li>Risk Mitigation Review: Examine Delta{"\'"} s strategies for managing oil price volatility.</li>
     <li>Competitive Analysis: Compare the oil price impact on Delta with its industry peers.</li>
     <li>Strategic Recommendations: Propose actions for Delta to enhance resilience against oil price changes.</li>
   </ul>
